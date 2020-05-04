@@ -5,12 +5,10 @@ before_install:
 
 script:
   - ls -l
-#  - cd chap0x04 && bash test.sh; cd ..
   - bash test.sh
   - ls -l
   - pwd
   - cat file
-
 notifications:
   email:
     on_success: never
